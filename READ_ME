@@ -1,0 +1,40 @@
+LANDING PAGE - index.php
+-HOME
+-SERVICES
+-ABOUT US
+-CONTACT US
+-LOGIN
+
+ADMIN
+--navigation in the left side
+-DASHBOARD
+    - display of users, appointments, type of pet
+-ADMIN ACCOUNT MANAGEMENT (CRUD) (TABLE)
+    - can update information of the admin
+-APPOINTMENT MANAGEMENT (CRUD) (TABLE)
+    - can update, create and delete appointment data add a action Accept or Declined, the default value should Pending
+-USERS MANAGEMENT (CRUD) (TABLE)
+    - can update, create and delete users data
+-TYPE OF PET MANAGEMENT (CRUD) (TABLE)
+    - update, create and delete type of pet  data
+-SERVICES
+    - update, create and delete services  data
+-SENDING SMS,NOTIFICATION
+    - can send sms/notification for scheduled users
+-MESSAGE FROM USERS
+    - can navigate messages/concern from users
+-LOGOUT BUTTON
+
+USERS
+--navigation in the top
+-DASHBOARD
+    - users can view the scheduled date for the pet
+-APPOINMENTS
+    - users can register appointment in the form, and view the appointments when it accept, pending or decline by admin
+-PET PROFILE PAGE
+    - users can navigate the pet profile, can add multiple pets and display their profile here
+-USERS PROFILE
+    - users can update their profile here
+-MESSAGE
+    -users can send a message or concern to the admin
+-LOGOUT

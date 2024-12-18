@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* main content css */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* FullCalendar css */
+#calendar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #A6AEBF; 
+    border: 1px solid #1A1A1D;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+}
+
+.fc-toolbar {
+    background-color: #81BFDA;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.fc-toolbar button {
+    background-color: white;
+    color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.fc-toolbar button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+/* Days Grid css */
+.fc-daygrid-day {
+    border: 1px solid #1A1A1D; 
+    background-color: #fff; 
+}
+
+.fc-daygrid-day:hover {
+    background-color: #f0f0f0; 
+}
+
+/* Highlight Today's Date css */
+.fc-day-today {
+    background-color: #A8CD89 !important;
+    font-weight: bold;
+}
+
+/* Event Styling css */
+.fc-event {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 0.85em;
+    cursor: pointer;
+}
+
+.fc-event:hover {
+    background-color: #1976d2;
+}
+
+/* Day Numbers css */
+.fc-daygrid-day-number {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* For smaller screens, the sidebar will collapse */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+}
